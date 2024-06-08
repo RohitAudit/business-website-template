@@ -4,9 +4,12 @@ import binance from "./binance.png";
 import card from "./card.png";
 import coinbase from "./coinbase.png";
 import dropbox from "./dropbox.png";
+import robo_logo from "./robo_logo.jpeg";
+import robo_2 from "./robo_2.jpeg";
 import logo from "./logo.svg";
 import quotes from "./quotes.svg";
 import robot from "./robot.png";
+import logo_nexus from "./logo_shifu.png";
 import send from "./Send.svg";
 import shield from "./Shield.svg";
 import star from "./Star.svg";
@@ -26,6 +29,7 @@ import people03 from "./people03.png";
 
 export {
   airbnb,
+  robo_2,
   bill,
   binance,
   card,
@@ -34,6 +38,7 @@ export {
   logo,
   quotes,
   robot,
+  logo_nexus,
   send,
   shield,
   star,
@@ -44,6 +49,7 @@ export {
   arrowUp,
   discount,
   facebook,
+  robo_logo,
   instagram,
   linkedin,
   twitter,

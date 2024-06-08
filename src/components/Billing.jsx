@@ -15,14 +15,13 @@ const Billing = () => {
         <div className='absolute z-[0] -left-1/2 bottom-0 w-[50%] h-[50%] rounded-full pink__gradient'/>
       </div>
       <div className={layout.sectionInfo}>
-        <h2 className={styles.heading2}>Easily control your <br className='sm:block hidden'/> billing & invoicing.</h2>
+        <h2 className={styles.heading2}>See all the analytics<br className='sm:block hidden'/> and take informed decisions.</h2>
         <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
-          Elit enim sed massa etiam.
-          Mauris eu adipiscing ultrices ametodio aenean neque.
-          Fusce ipsum orci rhoncus aliporttitor integer platea placerat.
+          With the analytics dashboard you'll be able to take well informed decisions and monitor traffic on your app.
+          You'll be able to take data backed steps, which will help you grow.
         </p>
         <div className='flex flex-row flex-wrap sm:mt-10 mt-6'>
-          <img
+          {/* <img
             src={apple}
             alt='app-store'
             className='w-[128px] h-[42px] object-contain mr-5 cursor-pointer'
@@ -31,9 +30,9 @@ const Billing = () => {
             src={google}
             alt='google-play'
             className='w-[128px] h-[42px] object-contain cursor-pointer'
-          />
+          /> */}
         </div>
-      </div>  
+      </div>
     </section>
   )
 }
